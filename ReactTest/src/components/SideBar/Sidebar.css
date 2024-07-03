@@ -1,0 +1,47 @@
+.sidebar {}
+
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+
+.pop-content {
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+}
+
+.create-note-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 4px 30px;
+    margin-top: 50px;
+}
+
+.choose-color {
+    margin-right: 10px;
+}
+
+.color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.group-name {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+input {
+
+    border: 1px solid #CCCCCC;
+    padding: 10px 105px 10px 10px;
+    border-radius: 12px;
+}

@@ -1,0 +1,98 @@
+* {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.group {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.group:hover {
+    background-color: #ddd;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.note-editor {
+    flex: 1;
+    padding: 20px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar{
+    width: 8px;
+  }
+  .custom-scroll::-webkit-scrollbar-track{
+  background-color: transparent;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 20px;
+    transition: 300ms;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb{
+    background-color: gray;
+  }

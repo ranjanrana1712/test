@@ -1,0 +1,24 @@
+.note-editor{
+    background-color: #F7ECDC;
+    height: 94vh;
+text-align: center;
+
+
+}
+img{
+    margin-top: 150px;
+    top: -100px;
+    margin-right: 10px;
+}
+.description{
+    width: 50%;
+    margin-left: 300px;
+}
+
+.footer{
+    margin-bottom: 200px;
+}
+
+.note-heading{
+    text-align: start;
+}
